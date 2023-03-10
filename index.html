@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Udan-tuition-center></Udan-tuition-center></title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+   
+
+    <!-- starting lines -->
+    
+    <div class="name"> 
+        <!-- <img src="data:image/png;base64,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" width="190px"
+        height="80px" alt=""> -->
+
+       <h1>UDAAN’S Tuition Centre </h1>
+      
+
+    </div>
+
+   
+   
+<!-- drop-down study material -->
+
+<div class="drop-down">
+
+    <label for="Study material">Study material</label>
+    <div class="study">
+
+        <select class="Study-material" >
+            <div class="option">
+                <option value="NCERT Solutions">NCERT Solutions</option>
+            <option value="Class notes">Class notes</option>
+            <option value="Projects">Projects</option>
+            <option value="CBSE">CBSE</option>
+            <option value="ICSE">ICSE</option>
+            <option value="States boards">States boards</option>
+            <option value="Open boards">Open Board</option>
+            <option value="NEET">NEET</option>
+
+
+            </div>
+            
+        
+        </select>
+
+
+
+
+    </div>
+
+
+<label for="Scholarship">Scholarship</label>
+<select class="Scholarship" >
+
+    <option value="Class-6">Class-6</option>
+    <option value="Class-7 ">Class-7</option>
+    <option value="Class-8">Class-8</option>
+    <option value="Class-9">Class-9</option>
+    <option value="Class-10">Class-10</option>
+    <option value="Class-11">Class-11</option>
+    <option value="Class-12">Class-12</option>
+   
+
+</select>
+
+
+
+<label for="Mock-paper">PYQ CBSE</label>
+<select class="Mock-paper">
+
+    <option value="CBSE">CBSE-2017</option>
+    <option value="Class-7 ">CBSE-2018</option>
+    <option value="Class-8">CBSE-2019</option>
+    <option value="Class-9">CBSE-2020</option>
+    <option value="Class-10">CBSE-2021</option>
+    <option value="Class-11">CBSE-2022</option>
+    <option value="Class-12">CBSE-2023</option>
+   
+
+</select>
+
+</div>
+    
+    <div class="main-container">
+
+        <!-- heading and form -->
+        <div class="form">
+            <h2>Get Call Back from UDAAN'S <br>
+                Academic Counsellor</h2>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Mobile number">
+                <input type="text" placeholder="State">
+                <input type="text" placeholder="City">
+                <input type="text" placeholder="Preferred center">
+                <h3>Select your class</h3>
+                <div class="select-class">
+                    <button>Class 4</button>
+                    <button>Class 5</button>
+                    <button>Class 6</button>
+                    <button>Class 7</button> 
+                    <button>Class 8</button> 
+                    <button>Class 9</button>
+                    <button>Class 10</button>
+                    
+                </div>
+
+        </div>
+
+        <!-- our features -->
+
+        <div class="our-features">
+            <div class="main-title">
+                <h1 class="title">UDAAN’S Tuition Centre</h1>
+
+                <h3 class="title-2" >A Unique Combination of Online & Classroom Learning</h3>
+
+
+            </div>
+
+           
+
+            <div class="image-udaan">
+
+
+                <div class="bookmark">
+                    <div class="container-image"><img src="https://cdn1.byjus.com/btc/online-class.svg" alt=""></div>
+                    <p class="bookmark-text">Online Classes with <br>
+                        Two Teacher Advantage</p>
+                </div>
+                
+    
+                <div class="bookmark">
+                    <div class="cotainer-image"> <img src="https://cdn1.byjus.com/btc/facetoface.svg" alt=""></div>
+                    <p class="bookmark-text">Face-to-Face <br> Interaction at <br>
+                        Tuition Centre</p>
+                </div>
+                
+    
+                <div class="bookmark">
+                    <div class="container-image"> <img src="https://cdn1.byjus.com/btc/proven.svg" alt=""></div>
+                    <p class="bookmark-text">Proven <br>
+                        UDAAN’S Methodology</p>
+                </div>
+
+
+            </div>
+
+            
+            
+           
+            
+           
+           
+
+        </div>
+        
+    </div>
+
+
+    <div class="new-heading">
+        <h1>Programs at UDAAN’S Tuition Centre</h1>
+    </div>
+
+    <div class="programe-center">
+
+        <div class="unique-heading"><h3>A Unique Combination of...</h3></div>
+
+        <div class="middle-sect">
+
+            <div class="middle-one">
+
+                <h2>OFFLINE LEARNING</h2> <h2>ONLINE LEARNING</h2>
+                
+            </div>
+
+            <!-- <div class="decor">
+
+                <div class="plus"> <img src="https://cdn1.byjus.com/btc/plus.png" width="40px" height="40px" alt=""></div>
+               
+
+            </div> -->
+
+
+            <div class="feature-main">
+                <div class="feature-pro">
+
+                    <h3 class="hd1">Face-to-face Interaction at Tuition Centre </h3>
+
+                   
+                    <ul class="first">
+                        <li>Teaching & doubts cleared for complete understanding</li>
+                        <li>Further strengthening by problem solving & tutorials</li>
+                        <li>Regular assessments & PTMs</li>
+                    </ul>
+    
+                    
+                </div>
+
+                <div class="feature-middle">
+                    <img src="https://cdn1.byjus.com/btc/plus.png" width="52" height="52" alt="">
+                </div>
+    
+                <div class="feature-pro2">
+
+                    <h3 class="hd2">‘Two-Teacher’ model ensuring Conceptual Clarity
+
+                    </h3>
+                    <ul class="second">
+                        <li>Concepts taught by top teachers of the country</li>
+                        <li>Second teacher resolves doubts & provides personal attention</li>
+                    </ul>
+                </div>
+
+               
+
+            </div>
+
+            <div class="imageszn">
+                <img src="https://resize.indiatvnews.com/en/resize/newbucket/730_-/2016/07/zakir-naik-1467769092.jpg" height="300"
+                width="450" alt="">
+
+                <h2>Foudner 
+                :Dr.Zakir naik</h2>
+            </div>
+
+
+            <div class="last-head"> <h2 >Know More</h2></div>
+
+          
+
+    
+
+            </div>
+
+           
+
+
+        
+        </div>
+
+
+    </div>
+
+    
+
+    
+    
+</body>
+</html>

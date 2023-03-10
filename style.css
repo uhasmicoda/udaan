@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    width: 100%;
+
+}
+
+.name{
+
+    background-color:antiquewhite;
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+
+    justify-content: center;
+    text-align: center;
+    font-family:  Arial, Helvetica, sans-serif;
+
+    box-shadow: 3px 3px 6px;
+
+}
+
+
+.Study-material{
+    padding: 8px 12px;
+    background-color:rgb(235, 119, 119);
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.option{
+    background-color: rgb(235, 186, 114);
+    color: blue;
+}
+
+.study{
+    background-color: antiquewhite;
+}
+
+.byjus{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.main-container{
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-udan{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+   
+    align-items: center;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 4px 4px 8px;
+    border-radius: 12px;
+    font-size: large;
+    outline: none;
+
+}
+
+.select-class{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: black solid 1px;
+    width: 500px;
+    height: 150px;
+    flex-wrap: wrap;
+}
+
+.select-class :first-child{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.select-class :nth-child(2){
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+
+}
+    .select-class :nth-child(3){
+        width: 100px;
+        height: 40px;
+    cursor: pointer;
+
+    }    
+        .select-class :nth-child(4){
+            width: 100px;
+            height: 40px;
+    cursor: pointer;
+
+        }
+
+.select-class :nth-child(5){
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+
+}
+    .select-class :nth-child(6){
+        width: 100px;
+        height: 40px;
+    cursor: pointer;
+
+    }
+        .select-class :nth-child(7){
+            width: 100px;
+            height: 40px;
+            cursor: pointer;
+        }    
+        
+
+        .our-features{
+            display: flex;
+    /* justify-content:space-between;
+    align-items: center; */
+    flex-direction:column;
+    width: 600px;
+    height: 600px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px;
+    background-color: antiquewhite;
+    padding: 30px 30px;
+    margin: 20px 20px;
+
+        }
+
+        .image-udaan{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            text-align: center;
+            width: 550px;
+            height: 150px;
+            box-shadow: 2px 2px 4px;
+
+        }
+
+        .container-image{
+             box-shadow: 8px;
+        }
+
+   .form input{
+    display: flex;
+    width: 550px;
+    height: 40px;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+    /* font-size: 12px; */
+    outline: none;
+   }     
+
+   
+.bookmark-text {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 15px;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 550px;
+    height: 150px;
+  
+}
+
+
+
+.programe-center{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+background-image: url(https://cdn1.byjus.com/btc/tution-bg.png);
+background-size: cover;
+height: 850px;
+
+}
+
+
+.new-heading{
+    color: #823287;
+font-weight: bold;
+margin: 25px;
+text-align: center;
+font-family: 'Roboto',sans-serif;
+}
+
+.unique-heading h3 {
+
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+color: #fff;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 25px;
+font-size: 1.75rem
+
+
+}
+
+.middle-sect{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction:column;
+    background-color: #e8eaf0;
+    font-weight: bold;
+    opacity: 0.8;
+    padding: 0px;
+    border-radius: 25px;
+    width: 850px;
+    height: 750px;
+    box-shadow: 12px 12px 24px;
+
+
+}
+ .middle-one{
+    display: flex;
+    justify-content:space-around;
+
+    align-items: center;
+    flex-direction: row;
+    height: 70px;
+    width: 850px;
+    
+    background-color: #f03a0d;
+    
+    border-radius:20px;
+     
+    color: #fff;
+    
+ }
+
+
+ .decor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #823287;
+ }
+
+ .feature-main{
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: row;
+    width: 800px;
+    height: 600px;
+
+ }
+
+ .feature-middle{
+    display: flex;
+   width: 70px;
+   height: 200px;
+   align-items: center;
+   justify-content: center;
+   border-radius: 10px;
+   margin: 1px;
+   padding: 1px;
+ }
+
+ .feature-pro{
+    width: 600px;
+    margin:5px;
+    padding: 5px;
+    text-align: start;
+    justify-content: center;
+    font-weight: 300;
+ }
+
+ .feature-pro2{
+    width: 600px;
+    margin:5px;
+    padding: 5px;
+    text-align: start;
+    justify-content: center;
+    font-weight: 300;
+ }
+
+ .first{
+    margin: 10px;
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+ }
+
+ .second{
+    margin: 10px;
+    width: 300px;
+    padding: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+ }
+
+ .hd1{
+   font-size: 25px;
+ }
+
+ .hd2{
+    font-size: 25px;
+ }
+
+ .last-head{
+    background-color: #f03a0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 80px;
+    color: #fff;
+    margin: 80px;
+    cursor: pointer;
+    
+ }
+.imageszn{
+    box-shadow: 10px 10px 20px;
+    text-align: center;
+}
+
+ 
+ 
